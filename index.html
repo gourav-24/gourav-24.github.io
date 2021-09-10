@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title> Stop Watch </title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- Container to place things in centre -->
+        <div class="flex-Container">
+            <!-- Heading -->
+            <div>
+                <h1> Stop Watch </h1>
+            </div>
+            <div class="line">
+                
+            </div>
+            <!-- Body of stop watch-->
+            <div class="stop_watch" >
+                <!-- area to display time -->
+                
+                <div class="display">
+                    <div>
+                        <h1 id="inner-display"></h1>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Buttons of stop watch-->
+
+            <div class="buttons">
+                <div Id="refresh-button">
+                    <a href=""> &#8635; </a> 
+                </div>
+                <div class="play-pause-button">
+                    <div Id="play-button" >
+                        <a href="">
+                            <i class="fa fa-play-circle" ></i>
+                        </a>
+                    </div>
+                    <div Id="pause-button" class="hide">
+                        <a href="">
+                            <i class="fa fa-pause"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div Id="lap-button">
+                    &#127987;
+                </div>
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="./functionality.js"></script>
+
+    </body>
+
+</html>
